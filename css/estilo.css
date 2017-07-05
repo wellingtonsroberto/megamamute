@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Roboto', sans-serif;
+	background-image: url('../images/fundo.jpg');
+}
+
+a {
+	color: inherit;
+	text-decoration: none
+}
+
+
+
+/* Bloco Topo ////////////////////////////////////////// */
+
+.bloco_topo{
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+}
+.bloco_topo img{
+	width: 100%;
+	max-width: 30%;
+	display: table;
+	margin: 70px auto;
+}
+
+/* /////////////////////////////////////////// */
+/* MOBILE /////////////////////////////////// */
+/* /////////////////////////////////////////// */
+@media screen and (max-width:700px) {
+
+	.bloco_topo{
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+}
+.bloco_topo img{
+	width: 100%;
+	max-width: 50%;
+	display: table;
+	margin: 70px auto;
+}
+  }
